@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+Quiz Application
+Table of Contents
+Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
 
-## Available Scripts
+Technologies Used
 
-In the project directory, you can run:
+Running the Application
 
-### `npm start`
+Dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Additional Information
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Introduction
+This is a simple quiz application built using React, Redux Toolkit, and Tailwind CSS. Users can take a short quiz, view their results, and see their high score along with their name. The application includes features like a timer for each question and randomization of questions each time the quiz is taken.
 
-### `npm test`
+Features
+5 multiple-choice questions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Randomized order of questions
 
-### `npm run build`
+Timer for each question (10 seconds)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Display results and feedback
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+High score persistence with user name in local storage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ability to restart the quiz
 
-### `npm run eject`
+Technologies Used
+React
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Redux Toolkit
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Tailwind CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Dependencies
+React: A JavaScript library for building user interfaces.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Redux Toolkit: A standardized way to write Redux logic.
 
-## Learn More
+React-Redux: Official React bindings for Redux.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Tailwind CSS: A utility-first CSS framework for rapid UI development.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Additional Information
+The application randomizes the order of questions each time the quiz is taken.
 
-### Code Splitting
+Each question has a 10-second timer. If the user does not answer within the time limit, it moves to the next question automatically.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The high score along with the user's name is stored in local storage, allowing users to see their best score when they return to the app.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application is fully responsive and works well on both mobile and desktop devices.
